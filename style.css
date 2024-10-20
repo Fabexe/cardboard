@@ -10,18 +10,79 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: 'myFont', Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 
-.title {
-    width: 550px;
+.main_title {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     color: #ffffff;
     background-color: #000000a6;
     border-radius: 25px;
-    font-size: 55px;
+    font-size: 45px;
     text-align: center;
     background-position: center;
+}
+
+.content_title {
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    background-color: #000000a6;
+    font-size: 35px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+}
+
+.content_top {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    background-color: #000000a6;
+    font-size: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.content_center {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    background-color: #000000a6;
+    font-size: 20px;
+}
+
+.content_bottom {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    background-color: #000000a6;
+    font-size: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.space {
+    margin-top: 30px;
 }
